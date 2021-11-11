@@ -1,9 +1,8 @@
 package com.example.Practica4Facturas.entity;
 
+
 public class InvoiceLine {
     private Integer quantityProduct;
-    //
-
 
     public Integer getQuantityProduct() {
         return quantityProduct;
