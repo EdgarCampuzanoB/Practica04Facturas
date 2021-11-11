@@ -1,7 +1,7 @@
 package com.example.Practica4Facturas.entity;
 
 public class Product {
-    private Integer code;
+    private Integer id;
     private String nameProduct;
     private String description;
     private String brand;
@@ -11,8 +11,8 @@ public class Product {
     public Product() {
     }
 
-    public Product(Integer code, String nameProduct, String description, String brand, String model, Double price) {
-        this.code = code;
+    public Product(Integer id, String nameProduct, String description, String brand, String model, Double price) {
+        this.id = id;
         this.nameProduct = nameProduct;
         this.description = description;
         this.brand = brand;
@@ -20,12 +20,12 @@ public class Product {
         this.price = price;
     }
 
-    public Integer getCode() {
-        return code;
+    public Integer getId() {
+        return id;
     }
 
-    public void setCode(Integer code) {
-        this.code = code;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getNameProduct() {

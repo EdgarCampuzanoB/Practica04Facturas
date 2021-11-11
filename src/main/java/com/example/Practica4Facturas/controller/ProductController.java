@@ -15,7 +15,7 @@ public class ProductController {
         return "productoForm";
     }
 
-    @PostMapping("/product")
+    @PostMapping("/productList")
     public String productSubmit(@ModelAttribute Product product){
         return "productList";
     }
